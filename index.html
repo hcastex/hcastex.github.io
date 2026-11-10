@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Hica Games</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito:wght@500;700&display=swap">
+<style>
+/* Layout: one reading column, a brass-edged header plate, FR then EN */
+:root{
+  --bg:#f7f1e6; --surface:#fffaf1; --fg:#2b2117; --muted:#6d5a44; --brass:#b07d22; --rule:#e2d3b8;
+  --display:'Baloo 2',ui-rounded,system-ui,sans-serif; --body:'Nunito',system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1c140e;--surface:#261b13;--fg:#f2e8d8;--muted:#bba78c;--brass:#e0b04f;--rule:#3d2e20;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1c140e;--surface:#261b13;--fg:#f2e8d8;--muted:#bba78c;--brass:#e0b04f;--rule:#3d2e20;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 56px}
+main{max-width:40rem;margin:0 auto;display:flex;flex-direction:column;gap:40px}
+header{border:2px solid var(--brass);border-radius:18px;background:var(--surface);padding:20px 22px}
+h1{font:800 2rem/1.1 var(--display);margin:0;text-wrap:balance}
+.meta{color:var(--muted);margin:6px 0 0;font-size:.95rem}
+nav{display:flex;gap:16px;margin-top:12px;flex-wrap:wrap}
+nav a{color:var(--brass);font-weight:700}
+section{display:flex;flex-direction:column;gap:6px}
+h2{font:800 1.45rem/1.2 var(--display);margin:0 0 4px;color:var(--brass)}
+h3{font:700 1.1rem/1.3 var(--display);margin:14px 0 0}
+p{margin:0}
+a{color:var(--brass)}
+a:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+.mail{font-weight:700;user-select:all}
+hr{border:0;border-top:1px solid var(--rule);margin:0}
+</style>
+</head><body><main><header><h1>Hica Games</h1><p class="meta">Jeux de réflexion · Puzzle games · <span class="mail">contact.hicagames@gmail.com</span></p></header>
+<section><h2>Bascule</h2><p>Fais pivoter le plateau, la gravité fait le reste. · Tilt the board, gravity does the rest.</p><p><a href="bascule/">Assistance / Support</a> · <a href="bascule/confidentialite/">Confidentialité / Privacy</a></p></section>
+</main></body></html>
