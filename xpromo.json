@@ -1,0 +1,8 @@
+{
+  "_aide": "Pub croisée des jeux Hica Games. live = identifiant App Store (chiffres, App Store Connect > Informations sur l'app > Identifiant Apple) des jeux SORTIS ; un jeu absent n'est jamais proposé. first/every = niveaux où la fenêtre s'ouvre ; off = true coupe tout.",
+  "live": {},
+  "first": 10,
+  "every": 30,
+  "reward": 25,
+  "off": false
+}
