@@ -1,12 +1,16 @@
 {
-  "_aide": "Pub croisée des jeux Hica Games. live = identifiant App Store (chiffres, App Store Connect > Informations sur l'app > Identifiant Apple) des jeux SORTIS ; un jeu absent n'est jamais proposé. first/every = niveaux où la fenêtre s'ouvre ; off = true coupe tout.",
+  "_aide": "Pub croisée des jeux Hica Games. live = identifiant App Store (chiffres, App Store Connect > Informations sur l'app > Identifiant Apple) des jeux SORTIS ; un jeu sans identifiant (vide ou absent) n'est jamais proposé. Clés : tranche = Tranchoir, valise = Escale. first/every = niveaux où la fenêtre s'ouvre ; off = true coupe tout.",
   "live": {
     "bascule": "6837421540",
     "berger": "6837979609",
     "cadran": "6838085542",
     "lianes": "6838470805",
     "reflets": "6839118037",
-    "exlibris": "6839260932"
+    "exlibris": "6839260932",
+    "ficelles": "6839651308",
+    "tranche": "6839659242",
+    "limaille": "6839646595",
+    "valise": "6839395702"
   },
   "first": 10,
   "every": 30,
